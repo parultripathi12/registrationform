@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border cellspacing="5" cellpadding="5">
+        <form action="">
+            <tr bgcolor="cream">
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>
+                    <label for="name">Enter Name</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="name">
+                </td>
+            </tr>
+            <tr bgcolor="cyan">
+                 <td>
+                    <label for="password">Enter Password</label>
+                 </td>
+                 <td>
+                    <input type="password" id="password" name="password">
+                </td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>
+                    <label for="address">Enter Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>
+                    <label for="game">Select Game</label>
+                </td>
+                <td>
+                    <p><input type="checkbox" name="game" id="Hockey">
+                    <label for="Hockey">Hockey</label>
+                    </p>
+                    <p><input type="checkbox" name="game" id="Cricket">
+                    <label for="Cricket">Cricket</label></p>
+                    <p><input type="checkbox" name="game" id="Badminton">
+                    <label for="Badminton">Badminton</label></p>
+                    <p><input type="checkbox" name="game" id="Golf">
+                    <label for="Golf">Golf</label></p>    
+                </td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>
+                    <label for="">Gender</label>
+                </td>
+                <td>
+                    <p><input type="radio" name="gender" id="male">
+                    <label for="male">Male</label></p>
+                    <p><input type="radio" name="gender" id="female">
+                    <label for="female">Female</label></p>
+                </td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>
+                    <label for="choose_age">Select Your Age</label>
+                </td>
+                <td>
+                    <input list="choose_age" name="choose_age">
+                    <datalist id="choose_age" name="choose_age">
+                        <option value="Select"></option>
+                        <option value="21"></option>
+                        <option value="22"></option>
+                        <option value="23"></option>
+                        <option value="24"></option>
+                        <option value="25"></option>
+                        <option value="26"></option>
+                        <option value="27"></option>
+                        <option value="28"></option>
+                        <option value="More than 28"></option>
+                    </datalist>
+
+                </td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td>
+                    <label for="photo">Select Photo</label>
+                </td>
+                <td>
+                    <input type="file" id="photo" name="photo">
+                </td>
+            </tr>
+            <tr bgcolor="cyan">
+                <td colspan="2" align="center">
+                    <input type="button" name="save" value="save">
+                    <input type="button" name="reset" value="reset">
+                    <input type="button" name="proceed" value="proceed">
+                </td>
+            </tr>
+                </label></tr>
+        </form>
+    </table>
+</body>
+</html>
